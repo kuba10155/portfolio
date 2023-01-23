@@ -1,0 +1,121 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+}
+
+.me-img {
+  border: 8px solid white;
+  border-radius: 40%;
+  width: 150px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 570px;
+}
+
+.accent-text,
+.name,
+time {
+  color: #99d930;
+  font-weight: 900;
+}
+
+.accent-text {
+  display: block;
+}
+
+h1 .accent-text {
+  font-size: 80px;
+}
+
+h2 .accent-text {
+  font-size: 60px;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 0;
+}
+
+h2 {
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  font-size: 42px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding: 20px 0;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+a {
+  color: #99d930;
+  font-weight: 900;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a:hover,
+a:focus {
+  color: #131313;
+}
+
+.small-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.inverse {
+  background: #252525;
+  color: #fff;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+  background: #fff;
+  color: #252525;
+}
+
+.btn {
+  background: #99d930;
+  border: none;
+  border-radius: 5px;
+  color: #252525;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #252525;
+  color: #fff;
+}
+
+.buttons{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60%;
+}

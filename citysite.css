@@ -1,0 +1,97 @@
+body {
+  background: white;
+  margin: 0;
+  text-align: center;
+}
+
+.header-section {
+  align-items: center;
+  background-image: url("/images/ostrowiec.webp");
+  background-size: auto;
+  border-radius: 15px;
+  color: #F1FAEE;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  margin: 5px 5px 0 5px;
+}
+
+.main-text {
+  background: #457B9D;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 3px 10px;
+}
+
+.main-desc {
+  background: #1D3557;
+  margin: 5px 0;
+  width: 300px;
+}
+
+.mid-section {
+  background-color: #F1FAEE;
+  margin: 0 5px;
+  padding: 20px 0;
+}
+
+.top-three {
+  margin: 0 0 20px 0;
+}
+
+.items {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgs-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.gosia {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.activity-head {
+  margin: 15px 0;
+}
+
+.activity-desc {
+  margin: 0;
+}
+
+.footer-section {
+  display: block;
+  margin: 50px auto;
+  width: 300px;
+}
+
+.card {
+  background: #A8DADC;
+  border-bottom: 4px solid #1D3557;
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  padding: 10px;
+  width: 300px;
+}
+
+.guide-desc {
+  width: 150px;
+  margin: 10px 0;
+}
+
+
+/*
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/

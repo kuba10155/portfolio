@@ -1,0 +1,80 @@
+html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 17px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 570px;
+}
+
+.imgs-container {
+  align-items: center;
+  border-bottom: 1px solid #c6c6c6;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.logo-img {
+  width: 207px;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+
+.profile-section img {
+  margin-right: 8px;
+}
+
+.post-img {
+  width:100%;
+}
+
+.profile-section {
+  align-items: center;
+  display: flex;
+  justify-content:flex-start;
+  padding: 12px;
+}
+
+.icon-img {
+  margin-right: 15px;
+  width: 40px;
+}
+
+.post-mark {
+  padding: 25px 10px 12px;
+}
+
+.post-mark h1 {
+  padding: 10px;
+}
+
+.comments {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.clasifier {
+  background: #ededed;
+  height: 40px;
+}

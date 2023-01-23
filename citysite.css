@@ -6,7 +6,7 @@ body {
 
 .header-section {
   align-items: center;
-  background-image: url("/images/ostrowiec.webp");
+  background-image: url("/ostrowiec.webp");
   background-size: auto;
   border-radius: 15px;
   color: #F1FAEE;
